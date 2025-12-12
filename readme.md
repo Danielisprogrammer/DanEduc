@@ -56,7 +56,7 @@ text
 ### Étapes
 ```bash
 # 1. Cloner le repository
-git clone https://github.com/ton-username/daneduc.git
+git clone https://github.com/danielisprogrammer/daneduc.git
 
 # 2. Se déplacer dans le dossier
 cd daneduc
@@ -163,8 +163,6 @@ Quand migrer ?
 Créer un projet Firebase
 
 Activer Authentication, Firestore, Storage
-
-Remplacer firebase-simulator.js par vrais SDK
 
 Importer les données locales
 
@@ -310,7 +308,7 @@ Innovation Technique
 
 🤝 Support
 Contact
-📧 Email: [ton-email@domain.com]
+📧 Email: [kengned776@gmail.com]
 
 🐛 Issues: GitHub Issues
 
@@ -326,9 +324,6 @@ Commit (git commit -m 'Add some AmazingFeature')
 Push (git push origin feature/AmazingFeature)
 
 Ouvrir une Pull Request
-
-📄 Licence
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 
 🙏 Remerciements
 Étudiants camerounais - Pour l'inspiration
@@ -472,6 +467,6 @@ Ne coche PAS "Initialize with README"
 
 5. Lier et pousser
 bash
-git remote add origin https://github.com/ton-username/daneduc.git
+git remote add origin https://github.com/danielisprogrammer/daneduc.git
 git branch -M main
 git push -u origin main
