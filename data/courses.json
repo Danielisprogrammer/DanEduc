@@ -1,0 +1,44 @@
+[
+  {
+    "id": "maths_terminale_suites",
+    "title": "Suites Numériques - Terminale C",
+    "description": "Comprendre les suites arithmétiques et géométriques avec exercices corrigés conformes au programme camerounais.",
+    "level": "Terminale",
+    "field": "Scientifique",
+    "subject": "Mathématiques",
+    "pages": 15,
+    "downloads": 1250,
+    "rating": 4.8,
+    "tags": ["suites", "arithmétique", "géométrique", "limites"],
+    "author": {
+      "name": "Dr. Jean Kamga",
+      "title": "Professeur de Mathématiques",
+      "avatar": "JK"
+    },
+    "duration": "2h30",
+    "difficulty": "Intermédiaire",
+    "publishedDate": "2023-10-15",
+    "thumbnail": "📐"
+  },
+  {
+    "id": "compta_bts_gestion",
+    "title": "Comptabilité Générale - BTS Gestion",
+    "description": "Principes fondamentaux de la comptabilité avec études de cas pratiques adaptées au contexte camerounais.",
+    "level": "BTS",
+    "field": "Gestion",
+    "subject": "Comptabilité",
+    "pages": 22,
+    "downloads": 845,
+    "rating": 4.5,
+    "tags": ["comptabilité", "bilan", "journal", "grand livre"],
+    "author": {
+      "name": "Marie Atangana",
+      "title": "Expert-Comptable",
+      "avatar": "MA"
+    },
+    "duration": "3h",
+    "difficulty": "Débutant",
+    "publishedDate": "2023-09-20",
+    "thumbnail": "📊"
+  }
+]
