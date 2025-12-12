@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanEduc - Réussis tes études au Cameroun</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <!-- Header -->
+    <header>
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">Dan<span>Educ</span></div>
+            </div>
+            
+            <!-- Navigation Desktop -->
+            <div class="desktop-nav">
+                <nav class="nav-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#catalogue">Catalogue</a>
+                    <a href="#fonctionnalites">Fonctionnalités</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="nav-buttons">
+                    <button class="btn btn-outline" id="loginBtn">Connexion</button>
+                    <button class="btn btn-primary" id="registerBtn">S'inscrire</button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Overlay) -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-content">
+                <nav class="mobile-nav-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#catalogue">Catalogue</a>
+                    <a href="#fonctionnalites">Fonctionnalités</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="mobile-menu-buttons">
+                    <button class="btn btn-outline" id="mobileLoginBtn">Connexion</button>
+                    <button class="btn btn-primary" id="mobileRegisterBtn">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Réussis tes études au Cameroun avec DanEduc</h1>
+                    <p>Plateforme éducative gratuite offrant des fiches de révision, exercices corrigés et entraide entre étudiants pour exceller dans ton parcours académique.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary pulse" id="heroRegisterBtn">Commencer gratuitement</button>
+                        <button class="btn btn-outline">Découvrir le catalogue</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Fiches disponibles</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Étudiants actifs</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Accès hors ligne</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-illustration slide-right">
+                    <div class="illustration-card float">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="card-title">
+                                <h4>Mathématiques - Terminale C</h4>
+                                <p>Suites numériques et limites</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-text">
+                                <i class="fas fa-download"></i> Télécharger
+                            </button>
+                            <button class="btn-text">
+                                <i class="fas fa-question-circle"></i> Aide
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="fonctionnalites">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pourquoi choisir DanEduc ?</h2>
+                <p>Une plateforme conçue spécifiquement pour répondre aux besoins des étudiants camerounais</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi-slash"></i>
+                    </div>
+                    <h3>Mode hors ligne</h3>
+                    <p>Télécharge les fiches et consulte-les sans connexion internet, où que tu sois.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Optimisé mobile</h3>
+                    <p>Interface adaptée à tous les écrans, même sur smartphones bas de gamme.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Contenu vérifié</h3>
+                    <p>Toutes nos ressources sont validées par des enseignants certifiés.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Communauté active</h3>
+                    <p>Échange avec d'autres étudiants et reçois de l'aide quand tu en as besoin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="catalog" id="catalogue">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre catalogue de ressources</h2>
+                <p>Parcours des fiches organisées par niveau et matière, conformes au programme camerounais</p>
+            </div>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tout voir</button>
+                <button class="filter-btn" data-filter="bac">Baccalauréat</button>
+                <button class="filter-btn" data-filter="bts">BTS</button>
+                <button class="filter-btn" data-filter="licence">Licence</button>
+                <button class="filter-btn" data-filter="cap">CAP</button>
+            </div>
+
+            <div class="catalog-grid" id="courseGrid">
+                <!-- Les fiches seront chargées dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <h2 class="fade-in">Prêt à améliorer tes résultats ?</h2>
+            <p class="fade-in">Rejoins des milliers d'étudiants camerounais qui utilisent déjà DanEduc pour réussir leurs études</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary pulse" id="ctaRegisterBtn">S'inscrire gratuitement</button>
+                <button class="btn btn-outline">Voir les témoignages</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-text">Dan<span>Educ</span></div>
+                    </div>
+                    <p>Plateforme éducative gratuite dédiée aux étudiants camerounais. Nous croyons en l'éducation accessible à tous.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links Column -->
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#catalogue">Catalogue</a></li>
+                        <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Levels Column -->
+                <div class="footer-links">
+                    <h3>Niveaux</h3>
+                    <ul>
+                        <li><a href="#">Secondaire</a></li>
+                        <li><a href="#">Baccalauréat</a></li>
+                        <li><a href="#">BTS</a></li>
+                        <li><a href="#">Licence</a></li>
+                        <li><a href="#">Master</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>kengned776@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+237 690 30 93 13</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>Yaoundé, Cameroun</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 DanEduc. Tous droits réservés. Conçu avec ❤️ pour les étudiants camerounais.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Créer un compte</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-error" id="registerError"></div>
+                <div class="alert alert-success" id="registerSuccess"></div>
+                
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label for="registerName">Nom complet</label>
+                        <input type="text" id="registerName" class="form-control" placeholder="Votre nom complet" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerEmail">Adresse email</label>
+                        <input type="email" id="registerEmail" class="form-control" placeholder="vous@exemple.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerLevel">Niveau d'études</label>
+                        <select id="registerLevel" class="form-control" required>
+                            <option value="">Sélectionnez votre niveau</option>
+                            <option value="seconde">Seconde</option>
+                            <option value="premiere">Première</option>
+                            <option value="terminale">Terminale</option>
+                            <option value="bac">Baccalauréat</option>
+                            <option value="bts">BTS</option>
+                            <option value="licence">Licence</option>
+                            <option value="master">Master</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerPassword">Mot de passe</label>
+                        <input type="password" id="registerPassword" class="form-control" placeholder="Au moins 6 caractères" minlength="6" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerConfirmPassword">Confirmer le mot de passe</label>
+                        <input type="password" id="registerConfirmPassword" class="form-control" placeholder="Retapez votre mot de passe" required>
+                        <div class="password-match" id="passwordMatch"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="registerTerms" required>
+                            <label for="registerTerms">
+                                J'accepte les <a href="#">Conditions d'utilisation</a> et la <a href="#">Politique de confidentialité</a>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="loader" id="registerLoader">
+                        <div class="spinner"></div>
+                        <p>Création du compte en cours...</p>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        Créer mon compte
+                    </button>
+                </form>
+                
+                <div style="text-align: center; margin-top: 20px;">
+                    <p>Déjà un compte ? <a href="#" class="switch-to-login">Se connecter</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Connexion</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-error" id="loginError"></div>
+                
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Adresse email</label>
+                        <input type="email" id="loginEmail" class="form-control" placeholder="vous@exemple.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword">Mot de passe</label>
+                        <input type="password" id="loginPassword" class="form-control" placeholder="Votre mot de passe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="rememberMe">
+                            <label for="rememberMe">Se souvenir de moi</label>
+                        </div>
+                    </div>
+                    
+                    <div class="loader" id="loginLoader">
+                        <div class="spinner"></div>
+                        <p>Connexion en cours...</p>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        Se connecter
+                    </button>
+                </form>
+                
+                <div style="text-align: center; margin-top: 20px;">
+                    <p><a href="#" class="forgot-password">Mot de passe oublié ?</a></p>
+                    <p>Pas encore de compte ? <a href="#" class="switch-to-register">S'inscrire</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===== CONFIGURATION FIREBASE (À MODIFIER PLUS TARD) =====
+        const firebaseConfig = {
+            apiKey: "VOTRE_CLE_API_FIREBASE",
+            authDomain: "daneduc.firebaseapp.com",
+            projectId: "daneduc",
+            storageBucket: "daneduc.appspot.com",
+            messagingSenderId: "VOTRE_SENDER_ID",
+            appId: "VOTRE_APP_ID"
+        };
+
+        // ===== DONNÉES DE DÉMO =====
+        const courses = [
+            {
+                id: 1,
+                title: "Mathématiques - Suites numériques",
+                description: "Comprendre les suites arithmétiques et géométriques avec exemples pratiques.",
+                level: "Terminale",
+                field: "Scientifique",
+                pages: 12,
+                downloads: 1250,
+                author: "JD",
+                authorName: "Jean Dupont",
+                authorTitle: "Professeur de Maths",
+                rating: 4.8
+            },
+            {
+                id: 2,
+                title: "Comptabilité générale",
+                description: "Les principes fondamentaux de la comptabilité avec exercices corrigés.",
+                level: "BTS",
+                field: "Gestion",
+                pages: 18,
+                downloads: 845,
+                author: "MA",
+                authorName: "Marie Atangana",
+                authorTitle: "Comptable certifiée",
+                rating: 4.5
+            },
+            {
+                id: 3,
+                title: "Introduction au droit civil",
+                description: "Notions de base sur les personnes, la famille et les biens en droit camerounais.",
+                level: "Licence",
+                field: "Droit",
+                pages: 22,
+                downloads: 1500,
+                author: "KN",
+                authorName: "Kévin Ngo",
+                authorTitle: "Avocat",
+                rating: 4.9
+            },
+            {
+                id: 4,
+                title: "Physique - Mécanique",
+                description: "Les lois de Newton et applications pratiques.",
+                level: "Terminale",
+                field: "Scientifique",
+                pages: 15,
+                downloads: 980,
+                author: "PD",
+                authorName: "Paul Dikongué",
+                authorTitle: "Professeur de Physique",
+                rating: 4.7
+            },
+            {
+                id: 5,
+                title: "Marketing digital",
+                description: "Les bases du marketing en ligne pour entrepreneurs.",
+                level: "BTS",
+                field: "Commerce",
+                pages: 20,
+                downloads: 1120,
+                author: "SA",
+                authorName: "Sarah Ambassa",
+                authorTitle: "Marketeuse digitale",
+                rating: 4.6
+            },
+            {
+                id: 6,
+                title: "Biologie cellulaire",
+                description: "Structure et fonctionnement des cellules vivantes.",
+                level: "Licence",
+                field: "Sciences",
+                pages: 25,
+                downloads: 760,
+                author: "FM",
+                authorName: "François Mbappé",
+                authorTitle: "Biologiste",
+                rating: 4.8
+            }
+        ];
+
+        // ===== ÉTATS DE L'APPLICATION =====
+        let currentUser = null;
+        let currentFilter = 'all';
+
+        // ===== INITIALISATION =====
+        document.addEventListener('DOMContentLoaded', function() {
+            initApp();
+        });
+
+        function initApp() {
+            // Initialiser les composants
+            renderCourses();
+            setupEventListeners();
+            setupAnimations();
+            
+            // Vérifier si l'utilisateur est déjà connecté (simulation)
+            checkAuthState();
+        }
+
+        // ===== RENDU DES COURS =====
+        function renderCourses() {
+            const grid = document.getElementById('courseGrid');
+            grid.innerHTML = '';
+            
+            const filteredCourses = currentFilter === 'all' 
+                ? courses 
+                : courses.filter(course => course.level.toLowerCase().includes(currentFilter));
+            
+            filteredCourses.forEach(course => {
+                const courseCard = createCourseCard(course);
+                grid.appendChild(courseCard);
+            });
+        }
+
+        function createCourseCard(course) {
+            const card = document.createElement('div');
+            card.className = 'course-card fade-in';
+            card.innerHTML = `
+                <div class="card-badge">${course.rating} <i class="fas fa-star"></i></div>
+                <div class="card-content">
+                    <div class="course-tags">
+                        <span class="tag level">${course.level}</span>
+                        <span class="tag field">${course.field}</span>
+                    </div>
+                    <h3>${course.title}</h3>
+                    <p>${course.description}</p>
+                    
+                    <div class="course-meta">
+                        <div>
+                            <i class="fas fa-file-pdf" style="color: #FF6B35;"></i>
+                            <span>${course.pages} pages</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-download" style="color: #6C757D;"></i>
+                            <span>${course.downloads.toLocaleString()}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="course-author">
+                        <div class="author-avatar">${course.author}</div>
+                        <div>
+                            <div style="font-weight: 600;">${course.authorName}</div>
+                            <div style="font-size: 0.8rem; color: #6C757D;">${course.authorTitle}</div>
+                        </div>
+                        <button class="btn btn-primary" style="margin-left: auto; padding: 8px 20px;">
+                            <i class="fas fa-eye"></i> Voir
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            // Ajouter l'événement de clic
+            card.querySelector('button').addEventListener('click', () => {
+                alert(`Ouverture de la fiche: ${course.title}\n\nCette fonctionnalité sera disponible avec Firebase.`);
+            });
+            
+            return card;
+        }
+
+        // ===== GESTION DES ÉVÉNEMENTS =====
+        function setupEventListeners() {
+            // Menu mobile
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('active');
+                mobileMenuBtn.innerHTML = mobileMenu.classList.contains('active') 
+                    ? '<i class="fas fa-times"></i>' 
+                    : '<i class="fas fa-bars"></i>';
+            });
+
+            // Filtres des cours
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentFilter = this.dataset.filter;
+                    renderCourses();
+                });
+            });
+
+            // Boutons d'inscription
+            const registerButtons = [
+                document.getElementById('registerBtn'),
+                document.getElementById('mobileRegisterBtn'),
+                document.getElementById('heroRegisterBtn'),
+                document.getElementById('ctaRegisterBtn')
+            ];
+            
+            registerButtons.forEach(btn => {
+                if (btn) btn.addEventListener('click', () => openModal('register'));
+            });
+
+            // Boutons de connexion
+            const loginButtons = [
+                document.getElementById('loginBtn'),
+                document.getElementById('mobileLoginBtn')
+            ];
+            
+            loginButtons.forEach(btn => {
+                if (btn) btn.addEventListener('click', () => openModal('login'));
+            });
+
+            // Fermeture des modals
+            document.querySelectorAll('.close-modal').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    closeAllModals();
+                });
+            });
+
+            // Clic en dehors des modals
+            document.querySelectorAll('.modal').forEach(modal => {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        closeAllModals();
+                    }
+                });
+            });
+
+            // Validation du formulaire d'inscription
+            const registerForm = document.getElementById('registerForm');
+            if (registerForm) {
+                registerForm.addEventListener('submit', handleRegister);
+                
+                // Validation en temps réel du mot de passe
+                const passwordInput = document.getElementById('registerPassword');
+                const confirmPasswordInput = document.getElementById('registerConfirmPassword');
+                const passwordMatch = document.getElementById('passwordMatch');
+                
+                [passwordInput, confirmPasswordInput].forEach(input => {
+                    input.addEventListener('input', () => {
+                        if (passwordInput.value && confirmPasswordInput.value) {
+                            if (passwordInput.value === confirmPasswordInput.value) {
+                                passwordMatch.innerHTML = '<span style="color: #28A745;">✓ Les mots de passe correspondent</span>';
+                                passwordMatch.classList.add('visible');
+                            } else {
+                                passwordMatch.innerHTML = '<span style="color: #DC3545;">✗ Les mots de passe ne correspondent pas</span>';
+                                passwordMatch.classList.add('visible');
+                            }
+                        } else {
+                            passwordMatch.innerHTML = '';
+                            passwordMatch.classList.remove('visible');
+                        }
+                    });
+                });
+            }
+
+            // Formulaire de connexion
+            const loginForm = document.getElementById('loginForm');
+            if (loginForm) {
+                loginForm.addEventListener('submit', handleLogin);
+            }
+
+            // Navigation entre modals
+            document.querySelectorAll('.switch-to-login').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    closeAllModals();
+                    setTimeout(() => openModal('login'), 300);
+                });
+            });
+
+            document.querySelectorAll('.switch-to-register').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    closeAllModals();
+                    setTimeout(() => openModal('register'), 300);
+                });
+            });
+
+            // Navigation par ancres
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    if (this.getAttribute('href') !== '#') {
+                        e.preventDefault();
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 80,
+                                behavior: 'smooth'
+                            });
+                        }
+                        
+                        // Fermer le menu mobile si ouvert
+                        if (mobileMenu.classList.contains('active')) {
+                            mobileMenu.classList.remove('active');
+                            mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                        }
+                    }
+                });
+            });
+        }
+
+        // ===== GESTION DES MODALS =====
+        function openModal(modalType) {
+            closeAllModals();
+            const modal = document.getElementById(`${modalType}Modal`);
+            if (modal) {
+                setTimeout(() => {
+                    modal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                }, 10);
+            }
+        }
+
+        function closeAllModals() {
+            document.querySelectorAll('.modal').forEach(modal => {
+                modal.classList.remove('active');
+            });
+            document.body.style.overflow = 'auto';
+        }
+
+        // ===== AUTHENTIFICATION (SIMULATION) =====
+        function handleRegister(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('registerName').value;
+            const email = document.getElementById('registerEmail').value;
+            const password = document.getElementById('registerPassword').value;
+            const confirmPassword = document.getElementById('registerConfirmPassword').value;
+            const level = document.getElementById('registerLevel').value;
+            const terms = document.getElementById('registerTerms').checked;
+            
+            // Validation
+            const errorElement = document.getElementById('registerError');
+            const successElement = document.getElementById('registerSuccess');
+            const loader = document.getElementById('registerLoader');
+            
+            // Masquer les messages précédents
+            errorElement.style.display = 'none';
+            successElement.style.display = 'none';
+            
+            // Validation basique
+            if (!name || !email || !password || !confirmPassword || !level) {
+                showError(errorElement, 'Tous les champs sont obligatoires');
+                return;
+            }
+            
+            if (!terms) {
+                showError(errorElement, 'Vous devez accepter les conditions d\'utilisation');
+                return;
+            }
+            
+            if (password !== confirmPassword) {
+                showError(errorElement, 'Les mots de passe ne correspondent pas');
+                return;
+            }
+            
+            if (password.length < 6) {
+                showError(errorElement, 'Le mot de passe doit contenir au moins 6 caractères');
+                return;
+            }
+            
+            // Simuler l'inscription
+            loader.style.display = 'block';
+            
+            setTimeout(() => {
+                loader.style.display = 'none';
+                
+                // Simuler une réussite
+                currentUser = {
+                    name: name,
+                    email: email,
+                    level: level
+                };
+                
+                // Afficher le message de succès
+                successElement.innerHTML = `
+                    <i class="fas fa-check-circle"></i> 
+                    Compte créé avec succès ! Bienvenue ${name} !
+                `;
+                successElement.style.display = 'block';
+                
+                // Mettre à jour l'interface
+                updateUIForUser();
+                
+                // Fermer le modal après 2 secondes
+                setTimeout(() => {
+                    closeAllModals();
+                    successElement.style.display = 'none';
+                    
+                    // Réinitialiser le formulaire
+                    document.getElementById('registerForm').reset();
+                    document.getElementById('passwordMatch').innerHTML = '';
+                }, 2000);
+                
+            }, 1500);
+        }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+            const errorElement = document.getElementById('loginError');
+            const loader = document.getElementById('loginLoader');
+            
+            errorElement.style.display = 'none';
+            
+            if (!email || !password) {
+                showError(errorElement, 'Veuillez remplir tous les champs');
+                return;
+            }
+            
+            loader.style.display = 'block';
+            
+            setTimeout(() => {
+                loader.style.display = 'none';
+                
+                // Simulation de connexion réussie
+                currentUser = {
+                    name: "Utilisateur Test",
+                    email: email,
+                    level: "licence"
+                };
+                
+                updateUIForUser();
+                closeAllModals();
+                
+                // Afficher notification
+                showNotification(`Bienvenue ${currentUser.name} !`);
+                
+            }, 1500);
+        }
+
+        function checkAuthState() {
+            // Ici, on vérifiera avec Firebase si l'utilisateur est connecté
+            // Pour l'instant, simulation
+            const savedUser = localStorage.getItem('daneduc_user');
+            if (savedUser) {
+                currentUser = JSON.parse(savedUser);
+                updateUIForUser();
+            }
+        }
+
+        function updateUIForUser() {
+            if (currentUser) {
+                // Sauvegarder l'utilisateur
+                localStorage.setItem('daneduc_user', JSON.stringify(currentUser));
+                
+                // Mettre à jour les boutons
+                document.querySelectorAll('#registerBtn, #mobileRegisterBtn').forEach(btn => {
+                    if (btn) {
+                        btn.innerHTML = `<i class="fas fa-user"></i> ${currentUser.name.split(' ')[0]}`;
+                        btn.classList.remove('btn-primary');
+                        btn.classList.add('btn-secondary');
+                    }
+                });
+                
+                document.querySelectorAll('#loginBtn, #mobileLoginBtn').forEach(btn => {
+                    if (btn) {
+                        btn.innerHTML = '<i class="fas fa-sign-out-alt"></i> Déconnexion';
+                        btn.onclick = handleLogout;
+                    }
+                });
+            }
+        }
+
+        function handleLogout() {
+            currentUser = null;
+            localStorage.removeItem('daneduc_user');
+            
+            // Réinitialiser les boutons
+            document.querySelectorAll('#registerBtn, #mobileRegisterBtn').forEach(btn => {
+                if (btn) {
+                    btn.innerHTML = "S'inscrire";
+                    btn.classList.remove('btn-secondary');
+                    btn.classList.add('btn-primary');
+                }
+            });
+            
+            document.querySelectorAll('#loginBtn, #mobileLoginBtn').forEach(btn => {
+                if (btn) {
+                    btn.innerHTML = "Connexion";
+                    btn.onclick = () => openModal('login');
+                }
+            });
+            
+            showNotification("Vous êtes déconnecté.");
+        }
+
+        // ===== ANIMATIONS =====
+        function setupAnimations() {
+            // Animation au scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            }, observerOptions);
+            
+            // Observer les éléments à animer
+            document.querySelectorAll('.feature-card, .course-card, .section-title').forEach(el => {
+                observer.observe(el);
+            });
+            
+            // Animation du header au scroll
+            let lastScroll = 0;
+            const header = document.querySelector('header');
+            
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
+                
+                if (currentScroll > 100) {
+                    header.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.1)';
+                } else {
+                    header.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+                }
+                
+                lastScroll = currentScroll;
+            });
+        }
+
+        // ===== FONCTIONS UTILITAIRES =====
+        function showError(element, message) {
+            element.innerHTML = `<i class="fas fa-exclamation-circle"></i> ${message}`;
+            element.style.display = 'block';
+            element.classList.add('shake');
+            setTimeout(() => element.classList.remove('shake'), 500);
+        }
+
+        function showNotification(message) {
+            // Créer une notification temporaire
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 100px;
+                right: 20px;
+                background: var(--primary);
+                color: white;
+                padding: 15px 25px;
+                border-radius: var(--radius);
+                box-shadow: var(--shadow-lg);
+                z-index: 3000;
+                transform: translateX(120%);
+                transition: transform 0.3s ease;
+            `;
+            notification.innerHTML = `
+                <i class="fas fa-check-circle" style="margin-right: 10px;"></i>
+                ${message}
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Animation d'entrée
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 10);
+            
+            // Animation de sortie après 3 secondes
+            setTimeout(() => {
+                notification.style.transform = 'translateX(120%)';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.parentNode.removeChild(notification);
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        // ===== PRÉPARATION FIREBASE =====
+        // Ces fonctions seront implémentées avec Firebase
+        function initializeFirebase() {
+            console.log('Firebase sera initialisé ici avec la configuration fournie');
+            // firebase.initializeApp(firebaseConfig);
+            // firebase.auth().onAuthStateChanged(handleAuthStateChanged);
+        }
+
+        function handleAuthStateChanged(user) {
+            // À implémenter avec Firebase
+            if (user) {
+                console.log('Utilisateur Firebase connecté:', user.email);
+            } else {
+                console.log('Utilisateur Firebase déconnecté');
+            }
+        }
+    </script>
+    <!--===============================================================-->
+
+
+    <!-- Firebase Simulator -->
+<script src="firebase-simulator.js"></script>
+
+<script>
+// ============================================
+// INTÉGRATION AVEC TON CODE EXISTANT
+// ============================================
+
+// Remplace tes fonctions d'authentification simulées
+// par les vraies fonctions du simulateur
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialiser le simulateur
+    console.log('🔥 Simulateur Firebase chargé');
+    
+    // Écouter les changements d'authentification
+    firebase.auth().onAuthStateChanged((user) => {
+        if (user) {
+            console.log('👤 Utilisateur connecté:', user.email);
+            // Mettre à jour l'interface
+            updateUIForUser(user);
+        } else {
+            console.log('👤 Utilisateur déconnecté');
+            // Réinitialiser l'interface
+            updateUIForUser(null);
+        }
+    });
+    
+    // Charger les cours
+    loadCourses();
+});
+
+// ==================== FONCTIONS UTILITAIRES ====================
+
+async function loadCourses(filters = {}) {
+    try {
+        const courses = await firebaseSimulator.getCourses(filters);
+        renderCourses(courses);
+    } catch (error) {
+        console.error('Erreur chargement cours:', error);
+    }
+}
+
+function renderCourses(courses) {
+    const grid = document.getElementById('courseGrid');
+    if (!grid) return;
+    
+    grid.innerHTML = courses.map(course => `
+        <div class="course-card fade-in">
+            <div class="card-badge">${course.rating} <i class="fas fa-star"></i></div>
+            <div class="card-content">
+                <div class="course-tags">
+                    <span class="tag level">${course.level}</span>
+                    <span class="tag field">${course.field}</span>
+                </div>
+                <h3>${course.title}</h3>
+                <p>${course.description}</p>
+                
+                <div class="course-meta">
+                    <div>
+                        <i class="fas fa-file-pdf" style="color: #FF6B35;"></i>
+                        <span>${course.pages} pages</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-download" style="color: #6C757D;"></i>
+                        <span>${course.downloads.toLocaleString()}</span>
+                    </div>
+                </div>
+                
+                <div class="course-author">
+                    <div class="author-avatar">${course.author.avatar}</div>
+                    <div>
+                        <div style="font-weight: 600;">${course.author.name}</div>
+                        <div style="font-size: 0.8rem; color: #6C757D;">${course.author.title}</div>
+                    </div>
+                    <button class="btn btn-primary download-btn" data-id="${course.id}" style="margin-left: auto; padding: 8px 20px;">
+                        <i class="fas fa-download"></i> Télécharger
+                    </button>
+                </div>
+            </div>
+        </div>
+    `).join('');
+    
+    // Ajouter les événements de téléchargement
+    document.querySelectorAll('.download-btn').forEach(btn => {
+        btn.addEventListener('click', async function() {
+            const courseId = this.dataset.id;
+            try {
+                const result = await firebaseSimulator.downloadPDF(courseId);
+                alert(`Fiche "${courses.find(c => c.id === courseId).title}" téléchargée avec succès!`);
+                // Recharger les cours pour mettre à jour les compteurs
+                loadCourses();
+            } catch (error) {
+                alert('Erreur lors du téléchargement: ' + error.message);
+            }
+        });
+    });
+}
+
+function updateUIForUser(user) {
+    if (user) {
+        // Utilisateur connecté
+        document.querySelectorAll('#registerBtn, #mobileRegisterBtn').forEach(btn => {
+            if (btn) {
+                btn.innerHTML = `<i class="fas fa-user"></i> ${user.name}`;
+                btn.classList.remove('btn-primary');
+                btn.classList.add('btn-secondary');
+                btn.onclick = () => {
+                    // Afficher le profil
+                    alert(`Profil de ${user.name}\nEmail: ${user.email}\nNiveau: ${user.level}`);
+                };
+            }
+        });
+        
+        document.querySelectorAll('#loginBtn, #mobileLoginBtn').forEach(btn => {
+            if (btn) {
+                btn.innerHTML = '<i class="fas fa-sign-out-alt"></i> Déconnexion';
+                btn.onclick = () => {
+                    firebase.auth().signOut();
+                    alert('Déconnecté avec succès!');
+                };
+            }
+        });
+    } else {
+        // Utilisateur déconnecté
+        document.querySelectorAll('#registerBtn, #mobileRegisterBtn').forEach(btn => {
+            if (btn) {
+                btn.innerHTML = "S'inscrire";
+                btn.classList.remove('btn-secondary');
+                btn.classList.add('btn-primary');
+                btn.onclick = () => openModal('register');
+            }
+        });
+        
+        document.querySelectorAll('#loginBtn, #mobileLoginBtn').forEach(btn => {
+            if (btn) {
+                btn.innerHTML = "Connexion";
+                btn.onclick = () => openModal('login');
+            }
+        });
+    }
+}
+
+// ==================== FORMULAIRES ====================
+
+// Inscription
+document.getElementById('registerForm')?.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const name = document.getElementById('registerName').value;
+    const email = document.getElementById('registerEmail').value;
+    const password = document.getElementById('registerPassword').value;
+    const confirmPassword = document.getElementById('registerConfirmPassword').value;
+    const level = document.getElementById('registerLevel').value;
+    
+    // Validation
+    if (password !== confirmPassword) {
+        alert('Les mots de passe ne correspondent pas');
+        return;
+    }
+    
+    try {
+        const loader = document.getElementById('registerLoader');
+        if (loader) loader.style.display = 'block';
+        
+        const result = await firebase.auth().createUserWithEmailAndPassword(email, password);
+        
+        // Ajouter les données supplémentaires
+        firebaseSimulator.users.find(u => u.id === result.user.id).name = name;
+        firebaseSimulator.users.find(u => u.id === result.user.id).level = level;
+        firebaseSimulator.saveToStorage('daneduc_users', firebaseSimulator.users);
+        
+        alert(`Bienvenue ${name} ! Ton compte a été créé avec succès.`);
+        closeAllModals();
+        
+        if (loader) loader.style.display = 'none';
+    } catch (error) {
+        alert('Erreur: ' + error.message);
+    }
+});
+
+// Connexion
+document.getElementById('loginForm')?.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    
+    try {
+        const loader = document.getElementById('loginLoader');
+        if (loader) loader.style.display = 'block';
+        
+        await firebase.auth().signInWithEmailAndPassword(email, password);
+        
+        alert('Connexion réussie !');
+        closeAllModals();
+        
+        if (loader) loader.style.display = 'none';
+    } catch (error) {
+        alert('Erreur: ' + error.message);
+    }
+});
+</script>
+</body>
+</html>
